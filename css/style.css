@@ -7,7 +7,6 @@ html {
 main {
   width: 100%;
   height: 100vh;
-  background-color: blanchedalmond;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +54,30 @@ main {
   align-items: center;
 }
 
+.form .required {
+  position: absolute;
+  color: #f52e2e;
+  font-size: 0.8rem;
+  align-self: flex-start;
+  margin-left: 25px;
+}
+
+.form .required.name{
+  top: 70px;
+}
+
+.form .required.email{
+  top: 125px;
+}
+
+.form .required.phone{
+  top: 180px;
+}
+
+.form .required.message{
+  top: 300px;
+}
+
 .form input {
   color: #a8a8a8;
   border: 1px solid;
@@ -65,10 +88,12 @@ main {
 
 .form .placeholder {
   padding: 10px;
+  margin-top: 20px;
 }
 
 .form .placeholder.message {
   height: 100px;
+  padding-bottom: 70px;
 }
 
 .form-bg {
@@ -77,17 +102,24 @@ main {
   background-color: #fff;
 }
 
-.form span{
-    align-self: flex-start;
-    margin: 0 0 15px 15px;
-    font-size: 1.5rem;
+.form span {
+  align-self: flex-start;
+  margin: 10px 15px;
+  font-size: 1.5rem;
+}
+.form a {
+  width: 298px;
+  height: 41px;
+  background-color: #3ccc87;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.form .button{
-    width: 298px;
-    height: 41px;
-    background-color: #3ccc87;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 1.5rem;
+.hidden {
+  display: none;
 }
