@@ -1,6 +1,7 @@
 This is a project that i've created to pratice a little bit more on DOM and styles manipulations.
-
 My challenge here was not make the validation styles on css, but rather using just js.
+
+Github pages: https://paulomonezi.github.io/form-with-js-validations/
 
 States of the validation form:
 placeholders
